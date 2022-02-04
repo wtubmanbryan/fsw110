@@ -10,7 +10,7 @@ document.body.appendChild(myH1)
 
 // Site must have A p tag
 var myP = document.createElement("p")
-myP.innerHTML =""
+myP.innerHTML ="P tag"
 document.body.appendChild(myP)
 
 // Site must have A list
