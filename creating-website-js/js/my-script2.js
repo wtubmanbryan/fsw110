@@ -1,6 +1,6 @@
 // Site must have a navbar with links
 var myNav= document.createElement("a")
-myNav.innerHTML="www.w3schools.com| www.pluralsight.com| www.casinoroyalclub.com|health.usnews.com"
+myNav.innerHTML="www.w3schools.com| www.pluralsight.com| www.casinoroyalclub.com| health.usnews.com"
 document.body.prepend(myNav)
 
 // Site must have An h1 tag
