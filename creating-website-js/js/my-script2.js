@@ -1,11 +1,11 @@
 // Site must have a navbar with links
 var myNav= document.createElement("a")
-myNav.innerHTML="W3chools| Plural Sight| Casino Royal| Healthy Dieting"
+myNav.innerHTML="www.w3schools.com| www.pluralsight.com| www.casinoroyalclub.com|health.usnews.com"
 document.body.prepend(myNav)
 
 // Site must have An h1 tag
 var myH1=document.createElement("h1")
-myH1.innerHTML = ""
+myH1.innerHTML = "Hello Basic Site"
 document.body.appendChild(myH1)
 
 // Site must have A p tag
