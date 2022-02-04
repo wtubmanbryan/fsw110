@@ -5,22 +5,22 @@ document.body.prepend(myNav)
 
 // Site must have An h1 tag
 var myH1=document.createElement("h1")
-myH1.innerHTML = "Hello Basic Site"
+myH1.innerHTML = "Hello! Welcome to my JS Basic Site"
 document.body.appendChild(myH1)
 
 // Site must have A p tag
 var myP = document.createElement("p")
-myP.innerHTML ="P tag"
+myP.innerHTML ="All of this was created with JavaScript"
 document.body.appendChild(myP)
 
 // Site must have A list
-var myOl = document.createElement("ul")
+var myOl = document.createElement("ol")
 var newListItem1 = document.createElement("li")
 var newListItem2 = document.createElement("li")
 var newListItem3 = document.createElement("li")
-newListItem1.textContent=""
-newListItem2.textContent =""
-newListItem3.textContent =""
+newListItem1.textContent="Apple"
+newListItem2.textContent ="Celary"
+newListItem3.textContent ="Zucchini"
 myOl.appendChild(newListItem1)
 myOl.appendChild(newListItem2)
 myOl.appendChild(newListItem3)
