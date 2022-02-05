@@ -1,12 +1,47 @@
-//A navbar with links
-var myNavigator= document.writeln("Info")
-var myNav= document.createElement("a")
-myNav.innerHTML="www.w3schools.com| www.pluralsight.com| www.casinoroyalclub.com| health.usnews.com"
-document.body.prepend(myNav)
+// A navbar with link
+var navbar = document.createElement('nav')
+
+var a = document.createElement('a');
+var linkText= document.createTextNode('Home |')
+a.appendChild(linkText);
+a.title= 'my Home';
+a.href = 'http://example.com';
+
+var a2 = document.createElement('a');
+var linkText2= document.createTextNode('About |')
+a2.appendChild(linkText2);
+a2.title= 'my About us';
+a2.href = 'http://about.com';
+
+var a3 = document.createElement('a');
+var linkText3= document.createTextNode('Products |')
+a3.appendChild(linkText3);
+a3.title= 'my Products';
+a3.href = 'http://product.com';
+
+var a5 = document.createElement('a');
+var linkText5= document.createTextNode('Our Team |')
+a5.appendChild(linkText5);
+a5.title= 'Our Team';
+a5.href = 'http://our-team.com';
+
+var a4 = document.createElement('a');
+var linkText4= document.createTextNode('Contact us')
+a4.appendChild(linkText4);
+a4.title= 'Contact us';
+a4.href = 'http://Contact.com';
+
+navbar.append(a)
+navbar.append(a2)
+navbar.append(a3)
+navbar.append(a5)
+navbar.append(a4)
+
+document.body.appendChild(navbar);
 
 // Site must have An h1 tag
 var myH1=document.createElement("h1")
-myH1.innerHTML = "Hello! Welcome to my JS Basic Site"
+myH1.innerHTML = "Hello! Welcome to my JS Basic Site."
 document.body.appendChild(myH1)
 
 // Site must have A p tag
@@ -29,5 +64,5 @@ document.body.appendChild(myOl)
 
 // Site must have A footer
 var myFooter = document.createElement("Footer")
-myFooter.innerHTML=("Author: Jackson Smith")
+myFooter.innerHTML=("Author: Jack Smith")
 document.body.appendChild(myFooter)
