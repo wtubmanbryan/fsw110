@@ -1,0 +1,31 @@
+body{
+    margin: 20px;
+}
+
+div{
+    padding: 30px;
+    margin: auto;
+    width: 50%;
+}
+h1{
+    text-align: center;
+}
+.add{
+    background-color: aqua;
+}
+
+.sub{
+    background-color: coral;
+}
+.mul{
+    background-color: rgb(19, 113, 196);
+}
+.div{
+    background-color: greenyellow;
+}
+
+.result{
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+}
