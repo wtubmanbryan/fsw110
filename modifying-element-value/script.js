@@ -7,7 +7,7 @@ function submitForm(){
     let email = document.getElementById('email')
 
     alert(firstName.value + " " + lastName.value + " " + email.value)
-    // firstName.value =""
-    // lastName.value=""
-    // email.value=""
+    firstName.value =""
+    lastName.value=""
+    email.value=""
 }
