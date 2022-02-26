@@ -37,7 +37,6 @@ function multiplication(){
 
 }
 
-
 //Division
 let divBtn = document.getElementById('div')
 divBtn.addEventListener('click', division)

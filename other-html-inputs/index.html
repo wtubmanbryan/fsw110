@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WTubman Using Other HTML Inputs</title>
+</head>
+<body>
+    <form action="index.html" method="post">
+    <table>
+        <tr>
+            <td>First Name:</td><td><input type="text" id="firstName" /></td>
+        </tr>
+        <tr>
+           <td>Last Name:</td> <td><input type="text" id="lastName" /></td>
+        </tr>
+        <tr>
+            <td>Age:</td><td><input type="text" id="age" /></td>
+        </tr>
+        
+        <tr>
+            <td>Have you shopped with us before?</td>
+            <td><input type="radio" name="shopBefore" id="" value="yes" />  <label for="html">Yes</label>
+                <input type="radio" name="shopBefore" id="" value="no" />  <label for="html">No</label>
+            </td>
+        </tr>
+
+        <tr>
+            <td>How likely are you to recommend this product to a friend?</td>
+            <td><select name="recommend" id="recom">
+                <option value="Not likely">Not likely</option>
+                <option value="Somewhat likely">Somewhat likely</option>
+                <option value="Likely">Likely</option>
+            </select>
+                
+            </td>
+        </tr>
+        <td>Do you have any dietary restrictions?</td>
+        <td><select name="recommend" id="recom">
+            <option value="gluten free"> Gluten Free</option>
+            <option value="keto">Keto</option>
+            <option value="vegetarian">Vegetarian</option>
+        </select>
+
+        <tr>
+            <td><input type="submit" id="submitBtn" value="SUBMIT"></td>
+        </tr>
+    </table>
+</form>
+    <script src="script.js"></script>
+</body>
+</html>
