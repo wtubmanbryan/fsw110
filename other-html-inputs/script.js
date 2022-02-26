@@ -1,5 +1,5 @@
 let btn = document.getElementById('submitBtn')
-btn.addEventListener('click',submitForm)
+btn.addEventListener('click',submitBtn)
 
 function submitForm(){
     let firstName = document.getElementById('firstName')
