@@ -50,6 +50,10 @@ document.addEventListener("keydown", function(event) {
     {
         element.style.background = "white"
     }
+    else if(event.key == 'y')
+    {
+        element.style.background = "yellow"
+    }
   })
 
   //execute an event on mouse scroll (anywhere on the page)
