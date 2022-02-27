@@ -6,7 +6,7 @@
     <title>WTubman Using Other HTML Inputs</title>
 </head>
 <body>
-    <form action="index.html" method="post">
+    <!--<form action="index.html" method="post">-->
     <table>
         <tr>
             <td>First Name:</td><td><input type="text" id="firstName"/></td>
@@ -20,8 +20,8 @@
         
         <tr>
             <td>Have you shopped with us before?</td>
-            <td><input type="radio" name="shopBefore" id="" value="yes">  <label for="html">Yes</label>
-                <input type="radio" name="shopBefore" id="" value="no">  <label for="html">No</label>
+            <td><input type="radio" name="shopBefore" id="shopY" value="yes">  <label for="html">Yes</label>
+                <input type="radio" name="shopBefore" id="shopN" value="no">  <label for="html">No</label>
             </td>
         </tr>
 
@@ -37,16 +37,16 @@
             
         </tr>
         <td>Do you have any dietary restrictions?</td>
-        <td><input type="checkbox" name="dietary" id="" value="gluten free">  <label for="html">Gluten Free</label>
-            <input type="checkbox" name="dietary" id="" value="keto">  <label for="html">Keto</label>
-            <input type="checkbox" name="dietary" id="" value="vegetarian">  <label for="html">Vegetarian</label>
+        <td><input type="checkbox" name="dietary" id="glu" value="gluten free">  <label for="glu">Gluten Free</label>
+            <input type="checkbox" name="dietary" id="keto" value="keto">  <label for="keto">Keto</label>
+            <input type="checkbox" name="dietary" id="vege" value="vegetarian">  <label for="veg">Vegetarian</label>
         </td>
 
         <tr>
             <td><input type="submit" id="submitBtn" value="SUBMIT"></td>
         </tr>
     </table>
-</form>
+<!--</form>-->
     <script src="script.js"></script>
 </body>
 </html>
