@@ -5,7 +5,18 @@ body{
 div{
     padding: 30px;
     margin: auto;
-    width: 50%;
+    
+}
+.leftDiv{
+    float: left;
+}
+
+.rightDiv{
+    margin-top: 30px;
+    float: left;
+    background-color: rgb(151, 25, 25);
+    width: 200px;
+    text-align: center;
 }
 h1{
     text-align: center;
@@ -28,4 +39,6 @@ h1{
     padding: 10px;
     width: 100px;
     text-align: center;
+    font-size: 60px;
+    color: white;
 }

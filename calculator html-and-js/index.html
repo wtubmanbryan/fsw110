@@ -8,14 +8,12 @@
 </head>
 <body>
     <h1>Calculator:</h1>
-
+    <div class="leftDiv">
     <!--Addition operation-->
     <div class="add">
         <input type="text" id="addFirstNum"> <strong> + </strong>
         <input type="text" id="addSecondNum">
         <button type="button" id="add">&nbsp;    =     &nbsp; </button>
-
-        <strong id="addResult" class="result">0</strong>
 
     </div>
 
@@ -25,7 +23,7 @@
         <input type="text" id="subSecondNum">
         <button type="button" id="sub">&nbsp;    =     &nbsp;</button>
 
-        <strong id="subResult" class="result">0</strong>
+       
 
     </div>
 
@@ -35,7 +33,7 @@
         <input type="text" id="mulSecondNum">
         <button type="button" id="mul">&nbsp;    =     &nbsp;</button>
 
-        <strong id="mulResult" class="result">0</strong>
+        
 
     </div>
 
@@ -45,9 +43,11 @@
         <input type="text" id="divSecondNum">
         <button type="button" id="div">&nbsp;    =     &nbsp;</button>
 
-        <strong id="divResult" class="result">0</strong>
+      <p> <button type = "button" id="clear">CLEAR ALL</button></p>
 
     </div>
+    </div>
+    <div class="rightDiv"> <strong id="result" class="result">0</strong></div>
 
     <script src="myscript.js"></script>
 </body>

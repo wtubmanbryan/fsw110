@@ -1,3 +1,4 @@
+let result = document.getElementById('result')
 //Addition
 let addBtn = document.getElementById('add')
 addBtn.addEventListener('click', addition)
@@ -5,9 +6,7 @@ addBtn.addEventListener('click', addition)
 function addition(){
     let addFirstNum = document.getElementById('addFirstNum').value
     let addSecondNum = document.getElementById('addSecondNum').value
-    let addResult = document.getElementById('addResult')
-
-     addResult.innerText = (parseInt(addFirstNum) + parseInt(addSecondNum))
+    result.innerText = (parseInt(addFirstNum) + parseInt(addSecondNum))
 }
 
 
@@ -18,9 +17,7 @@ subBtn.addEventListener('click', subtraction)
 function subtraction(){
     let subFirstNum = document.getElementById('subFirstNum').value
     let subSecondNum = document.getElementById('subSecondNum').value
-    let subResult = document.getElementById('subResult')
-
-     subResult.innerText = (parseInt(subFirstNum) - parseInt(subSecondNum))
+    result.innerText = (parseInt(subFirstNum) - parseInt(subSecondNum))
 
 }
 
@@ -31,9 +28,7 @@ mulBtn.addEventListener('click', multiplication)
 function multiplication(){
     let mulFirstNum = document.getElementById('mulFirstNum').value
     let mulSecondNum = document.getElementById('mulSecondNum').value
-    let mulResult = document.getElementById('mulResult')
-
-     mulResult.innerText = (parseInt(mulFirstNum) * parseInt(mulSecondNum))
+     result.innerText = (parseInt(mulFirstNum) * parseInt(mulSecondNum))
 
 }
 
@@ -44,8 +39,23 @@ divBtn.addEventListener('click', division)
 function division(){
     let divFirstNum = document.getElementById('divFirstNum').value
     let divSecondNum = document.getElementById('divSecondNum').value
-    let divResult = document.getElementById('divResult')
+    result.innerText = (parseInt(divFirstNum) / parseInt(divSecondNum))
 
-     divResult.innerText = (parseInt(divFirstNum) / parseInt(divSecondNum))
+}
+
+//Clear All
+let clrBtn = document.getElementById('clear')
+clrBtn.addEventListener('click', clearAll)
+
+function clearAll(){
+    document.getElementById('addFirstNum').value = ""
+    document.getElementById('addSecondNum').value = ""
+    document.getElementById('subFirstNum').value = ""
+    document.getElementById('subSecondNum').value = ""
+    document.getElementById('mulFirstNum').value = ""
+    document.getElementById('mulSecondNum').value = ""
+    document.getElementById('divFirstNum').value = ""
+    document.getElementById('divSecondNum').value = ""
+    result.innerText = 0
 
 }
