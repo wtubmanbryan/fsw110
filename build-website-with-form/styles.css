@@ -1,0 +1,62 @@
+body{
+    background-image: url('images/bg.jpg');
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+header{
+    width: 100%;
+    top: 0;
+    position: fixed;
+    text-align: center;
+    background-color: white;
+    
+}
+
+
+footer{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    
+}
+
+.item{
+    background-color: lightgray;
+    margin: 5px;
+    width: 280px;
+    height: 280px;
+    padding: 10px;
+    float: left;
+    text-align: center;
+    margin: 10;
+}
+
+.item img{
+    width: 200;
+    height: 200;
+    
+}
+main{
+    margin: auto;
+    padding: 30px;
+}
+.menu{
+    margin-top: 20px;
+    padding: 20px;
+    background-color: gold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    width: 280px;
+    height: fit-content;
+    text-align: center;
+}
+
+.total{
+    clear:both;
+    background-color: gold;
+    padding: 10px;
+    width: 280px;
+    text-align: center;
+}
