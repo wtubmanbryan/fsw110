@@ -1,0 +1,106 @@
+body{
+    margin: 0px;
+    background-image: url('images/bg.jpg');
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+.grid-container{
+    display: grid;
+    grid-template-rows: 1fr;
+}
+hr{
+    border: dashed 1px gray;
+}
+header{
+    margin: 0px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    text-align: center;
+    background-color: white;
+    
+}
+
+
+footer{
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    left: 0px;
+    margin: 0;
+}
+
+.item{
+    background-color: lightgray;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    
+    
+}
+
+.todoList{
+    padding: 10px;
+    background-color: white;
+    
+}
+main{
+    margin: auto;
+    padding: 30px;
+}
+.menu{
+    margin-top: 20px;
+    padding: 20px;
+    background-color: gold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    width: 280px;
+    height: fit-content;
+    text-align: center;
+}
+
+.btn{
+    background-color: gold;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    border: 0;
+    border-radius: 40px;
+}
+
+.btnSmall{
+    background-color: gold;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+    border: 0;
+    border-radius: 40px;
+}
+
+input[type=text], textarea{
+    width: 100%;
+    padding: 5px 40px;
+    margin: 2px 0px;
+    display: inline-block;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  @media (min-width: 768px){
+    .grid-container {
+        grid-gap: 20px; 
+        grid-template-columns: repeat(6,1fr);
+       } 
+
+       .item{
+        grid-column: span 2;
+      }
+
+      .todoList{
+        grid-column: span 4;
+      }
+    }
