@@ -2,7 +2,8 @@ document.getElementById("save").addEventListener('click', saveToDoList)
 var pid = 1;
 var editId = "";
 
-function saveToDoList() {
+function saveToDoList(e) {
+  e.preventDefault();
   const mytitle = document.getElementById("title");
   const mydesc = document.getElementById("desc");
   if(editId == ""){
